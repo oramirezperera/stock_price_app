@@ -26,3 +26,11 @@ It's a way to download historical market data from Yahoo! finance.
 
 Is used to manipulate data and do data analysis.
 
+## App
+
+In st.write we use markdown language and the title of the app
+
+The charts are interactive
+
+You can change the stock by changing the ticker symbol with the ticker symbol of your choice
+
