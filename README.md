@@ -1,7 +1,7 @@
 # stock_price_app
 A stock price web app made in Python and Streamlit
 
-This simple web app uses Python, Streamlit, yfinance and pandas to show the prices of certain stock market.
+This simple web app using Python, Streamlit, yfinance and pandas to show the prices of certain stock market.
 
 ## Streamlit
 
@@ -35,3 +35,44 @@ The charts are interactive
 You can change the stock by changing the ticker symbol with the ticker symbol of your choice
 
 These are the valid periods of the tickers valid = 1d,5d,1mo,3mo,6mo,1y,2y,5y,10y,ytd,max. The default is 1mo
+
+## Starting
+
+To start this app in your local environment you have to clone this repository.
+
+### Prerequirements:
+
+- You need Python 3.6 or superior
+- Pandas
+- Streamlit
+
+## Installation:
+
+All the prerequisites can be installed using pip3 install -r requirements.txt.
+
+Once you have all the prerequisites you can run the app in your local environment using 
+
+```
+$ streamlit run stock_price.py
+```
+
+That will start out local server and give us two urls like this
+
+```
+  You can now view your Streamlit app in your browser.
+
+  Network URL: http://
+  External URL: http://
+```
+
+You can copy and paste the Network URL into your browser and see displayed the web application.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+## Thank You
+
+- Thanks for visiting this GitHub repository tell me if you like it.
+- If there any problem with the app just contact me.
+- Hope is useful and you can check out a lot of stock tickers.
