@@ -34,3 +34,13 @@ st.write("""
 ## Volume of the stock
 """)
 st.line_chart(ticker_df.Volume)
+
+st.write("""
+## Analyst recommendations
+""")
+recommendations = st.write(ticker_data.recommendations)
+
+st.write("""
+## Ticker Calendar
+""")
+calendar = st.write(ticker_data.calendar)
