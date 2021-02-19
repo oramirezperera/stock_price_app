@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 st.title("""
-# Stock Price app
+ Stock Price app
 
 """)
 st.write("""
