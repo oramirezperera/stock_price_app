@@ -76,3 +76,7 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 - Thanks for visiting this GitHub repository tell me if you like it.
 - If there any problem with the app just contact me.
 - Hope is useful and you can check out a lot of stock tickers.
+
+## Important 
+
+Changed yfinance to yfinance_ez because yfinance is having issues and errors. Now works completely.

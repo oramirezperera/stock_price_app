@@ -1,12 +1,13 @@
-import yfinance as yf
+import yfinance_ez as yf
 import streamlit as st
 import pandas as pd
 
-st.write("""
+st.title("""
 # Stock Price app
 
+""")
+st.write("""
 This app shows the closing price and the volume of a given ticker symbol
-
 """)
 
 ticker_symbol = 'TSLA'
@@ -19,12 +20,12 @@ ticker_data = yf.Ticker(ticker_symbol)
 st.write("""
 ## Info about the selected stock
 """)
-ticker_info = ticker_data.info
+ticker_info = st.write(ticker_data.info)
 
 # Historical data from the ticker 
 # period can be: 1m,2m,5m,15m,30m,60m,90m,1h,1d,5d,1wk,1mo,3mo
 # default is 1mo
-ticker_df = ticker_data.history(period='1d', start='2020-5-31', end='2020-5-31')
+ticker_df = ticker_data.get_history(period=yf.TimePeriods.Quarter)
 st.write("""
 ## Here are the closing value of the stock
 """)
