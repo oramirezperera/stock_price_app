@@ -34,3 +34,4 @@ The charts are interactive
 
 You can change the stock by changing the ticker symbol with the ticker symbol of your choice
 
+These are the valid periods of the tickers valid = 1d,5d,1mo,3mo,6mo,1y,2y,5y,10y,ytd,max. The default is 1mo
